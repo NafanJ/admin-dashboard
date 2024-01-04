@@ -150,27 +150,15 @@ body {
     align-items: center;
 }
 
-.announcements-trending{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
 .content{
     display: flex;
     gap: 10px;
     padding: 10px;
 }
 
-.content h5 {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-size: medium;
-}
-
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
 }
 
@@ -193,6 +181,7 @@ body {
     color: black;
     font-weight: normal;
     font-size: 14px;
+    text-align: center;
 }
 
 .projects .card {
@@ -201,6 +190,11 @@ body {
 
 .card p {
     padding: 5px;
+}
+
+.announcements-trending{
+    display: grid;
+    grid-template-columns: 0.5fr;
 }
 
 .announcements{
