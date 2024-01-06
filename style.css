@@ -35,11 +35,13 @@ body {
     display: grid;
     grid-template-columns: 1fr, 0.5fr;
     padding: 10px;
+    padding-bottom: 5px;
 }
 
 .search {
     grid-column: 1/3;
 }
+
 .search-container {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
@@ -52,30 +54,30 @@ body {
     display: flex;
     gap: 1rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-            
-  }
-  
-  .search-container img {
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.search-container img {
     height: 2rem;
     width: 2rem;
-  }
-  
-  .search-container .search-input {
+}
+
+.search-container .search-input {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     border-radius: 20px;
     border: none;
     background-color: #e2e8f0;
     height: 1.5rem;
-  }
-  
-  .search-container .search-input:focus {
+}
+
+.search-container .search-input:focus {
     outline: none;
     border: none;
-  }
+}
 
 .greeting {
     display: flex;
@@ -83,17 +85,17 @@ body {
     gap: 5px;
 }
 
-.message{
+.message {
     display: flex;
     flex-direction: column;
 }
 
-.message p{
+.message p {
     font-size: small;
     margin: 5px;
 }
 
-.message h5{
+.message h5 {
     margin: 5px;
 }
 
@@ -138,7 +140,7 @@ body {
     /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -151,7 +153,7 @@ body {
     align-items: center;
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
@@ -195,17 +197,17 @@ body {
     padding: 5px;
 }
 
-.announcements-trending{
+.announcements-trending {
     display: grid;
     grid-template-columns: 0.5fr;
     grid-template-rows: 1fr 50%;
 }
 
-.announcements{
+.announcements {
     grid-column: 1/3;
 }
 
-.announcements .card{
+.announcements .card {
     background-color: #FFFFFF;
     border-left-color: yellow;
     border-radius: 20px;
@@ -213,16 +215,16 @@ body {
     text-align: center;
 }
 
-.title{
+.title {
     margin-top: 0;
 }
 
-.trending{
+.trending {
     grid-column: 1/3;
     display: grid;
 }
 
-.trending{
+.trending {
     background-color: #FFFFFF;
     border-left-color: yellow;
     border-radius: 20px;
@@ -230,11 +232,11 @@ body {
     text-align: center;
 }
 
-.project{
+.project {
     padding-top: 2px;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
 }
 
-.trending > div:nth-child(5){
+.trending>div:nth-child(5) {
     border: none;
 }
