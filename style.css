@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: Roboto, 'sans-serif';
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -100,8 +106,10 @@ body {
 }
 
 .svg {
-    height: 30px;
+    height: 20px;
     width: auto;
+    padding: 8px;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(100deg) brightness(119%) contrast(119%);
 }
 
 .profile {
@@ -147,10 +155,18 @@ body {
     font-size: 16px;
 }
 
+.nav-top{
+    padding-bottom: 1rem;
+}
+
 .nav-item {
     font-size: medium;
     display: flex;
     align-items: center;
+}
+
+.nav-bottom{
+    padding-top: 2rem;
 }
 
 .content {
