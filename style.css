@@ -2,6 +2,7 @@
 
 *{
     font-family: Roboto, 'sans-serif';
+    font-size: 1.5vw;
 }
 
 body {
@@ -238,6 +239,7 @@ body {
 .trending {
     grid-column: 1/3;
     display: grid;
+    overflow: hidden;
 }
 
 .trending {
