@@ -103,7 +103,6 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 }
 
 .message p {
-    font-size: small;
     margin: 5px;
 }
 
@@ -156,7 +155,6 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 .buttons>button {
     border-radius: 10px;
     background-color: #2596be;
-    /* Green */
     border: none;
     color: white;
     padding: 8px 15px;
@@ -216,12 +214,15 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
     text-align: center;
 }
 
-.projects .card {
-    height: 200px;
-}
-
 .card p {
     padding: 5px;
+}
+
+.card-buttons{
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    padding: 0.5rem;
 }
 
 .announcements-trending {
