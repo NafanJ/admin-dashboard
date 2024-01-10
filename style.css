@@ -2,12 +2,13 @@
 
 *{
     font-family: Roboto, 'sans-serif';
-    font-size: 1.5vw;
 }
 
 body {
     padding: 0;
     margin: 0;
+    font-size: 0.8vw;
+
 }
 
 .container {
@@ -111,7 +112,7 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 }
 
 .svg {
-    height: 1rem;
+    height: 1.5rem;
     width: auto;
     padding: 8px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(2554%) hue-rotate(292deg) brightness(118%) contrast(101%);
@@ -161,7 +162,6 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
 }
 
 .nav-top{
@@ -169,7 +169,6 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 }
 
 .nav-item {
-    font-size: medium;
     display: flex;
     align-items: center;
 }
@@ -193,7 +192,6 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 }
 
 .projects p {
-    font-size: 18px;
     font-family: sans-serif;
     color: white;
     text-align: left;
@@ -201,16 +199,20 @@ body > div > div.dashboard > div.header > div.search-container > form > label > 
 
 .projects .card {
     background-color: #FFFFFF;
-    border-left-color: yellow;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: #2596be;
     border-radius: 20px;
     color: black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card p {
     color: black;
     font-weight: normal;
-    font-size: 1vw;
     text-align: center;
 }
 
